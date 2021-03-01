@@ -2,17 +2,17 @@ html,
 body {
   height: 100%;
   width: auto;
+  min-width: 360px;
  }
 
 #header {
   background: url(../img/Background.jpg) center;
   background-size: cover;
-  height: 100px;
+   /*-100% высоты экрана--*/
+   height: 918px;
   /*-100% высоты экрана--*/
-   height: auto;
-  /*-100% высоты экрана--*/
-  min-height: 700px;
   display: block;
+  width: 1500px;
 }
 
 .logo {
@@ -49,10 +49,12 @@ body {
   left: 80px;
 }
 
-.main-img {
-  height: 768px;
-  width: 728px;
+
+.start-img{
+  height: 780px;
   padding-left: 110px;
+
+
 }
 
 .contact-block {
@@ -72,6 +74,13 @@ body {
   margin-top: 23px;
 }
 
-
+.about-img{
+  padding-left: 165px;
+}
+.about-text,
+.about-title{
+  width: 410px;
+padding-left: 15px;
+padding-top: 20px;}
 
 
