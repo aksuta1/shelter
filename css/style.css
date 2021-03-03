@@ -8,6 +8,7 @@ body{
   background-image: url(../img/Background.jpg);
 
 }
+.nav-link,
 .start__title,
 .start__text{
   color:#fff
@@ -25,10 +26,68 @@ margin-left: 150px;
 .about__content {
   width: 450px;
 }
+
+
 .donate__content{
   width: 400px;
 }
 .footer{
   background-image: url(../img/Background.jpg);
 padding-left: 150px;
+}
+
+.help {
+  padding-top: 82px;
+  padding-left: 3px;
+  padding-bottom: 45px;
+
+
+  @media (max-width: 1024px){
+    margin-left: -2px;
+  }
+
+  @media (max-width: 740px) {
+    padding-top: 13.2%;
+    padding-bottom: 17px;
+  }
+}
+
+.help__title {
+
+  margin-bottom: 58px;
+  text-align: center;
+
+  
+}
+ .help-item{
+  list-style-type: none; 
+
+ }
+.help__list {
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto;
+
+  
+}
+
+.help__item {
+  margin-right: 60px;
+  margin-left: 60px;
+  margin-bottom: 55px;
+
+
+  
+
+
+
+
+.help__img {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  
 }
