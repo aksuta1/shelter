@@ -1,25 +1,39 @@
 html,
 body {
+  font-family: "Georgia", "Arial", sans-serif;
   height: 100%;
   width: auto;
   min-width: 360px;
 }
 
 .header {
-  background-image: url(../img/Background.jpg);
-
+  background: url(../img/podl.png), radial-gradient(70% 215.42% at 0% 0%, #44352b 0%, #262425 100%), #211F20;
+  padding-top: 50px;
 }
 
+.start__title{
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 44px;
+  letter-spacing: 3px;
+ 
+}
+.start__text,
+.nav-link{
+font-family: Arial;
+font-weight: 400;
+font-size: 15px;
+line-height: 24px;
+ color:rgba(205, 205, 205, 1)
+}
 .section {
   padding-top: 100px;
 }
 
 .nav-link,
-.start__title,
-.start__text {
+.start__title {
   color: #fff
 }
-
+ 
 .start__button {
   border-radius: 45px;
   background-color: rgb(192, 139, 89);
@@ -35,22 +49,8 @@ body {
   width: 450px;
 }
 
-.carousel-control-prev-icon {
-  background-image: url(../img/right-arrow.png);
-  width: 10px;
-  height: 5px;
-}
-
-.carousel-control-next-icon {
-  background-image: url(../img/left-arrow.png);
-  width: 10px;
-  height: 5px;
-  color: #000;
-}
-
 .carousel-inner {
   padding-left: 75px;
-
 }
 
 .carousel-control-next,
@@ -84,10 +84,6 @@ body {
   text-align: center;
   background-color: #fafafa;
 }
-
-
-
-.card-body {}
 
 .donate__content {
   width: 400px;
