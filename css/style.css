@@ -1,6 +1,5 @@
 html,
 body {
-  font-family: "Georgia", "Arial", sans-serif;
   height: 100%;
   width: auto;
   min-width: 360px;
@@ -11,34 +10,87 @@ body {
   padding-top: 50px;
 }
 
-.start__title{
+.start__title {
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 44px;
   letter-spacing: 3px;
- 
+
 }
+
 .start__text,
-.nav-link{
-font-family: Arial;
-font-weight: 400;
-font-size: 15px;
-line-height: 24px;
- color:rgba(205, 205, 205, 1)
-}
+.nav-link {
+   color: rgba(205, 205, 205, 1);
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+ }
+
 .section {
   padding-top: 100px;
 }
 
 .nav-link,
 .start__title {
-  color: #fff
-}
- 
-.start__button {
-  border-radius: 45px;
-  background-color: rgb(192, 139, 89);
   color: #fff;
+}
+.nav-link:hover {
+color: #fff;
+}
+li {
+	position: relative;
+	color: rgba(241, 205, 179, 1);
+	cursor: pointer;
+	line-height: 1; /*задаём высоту строки*/
+	text-decoration: none; /*убираем подчёркивание*/
 
+}
+li:after {
+	display: block;
+	position: absolute;
+	width: 0;/*задаём длинну линии до наведения курсора*/
+	height: 3px; /*задаём ширину линии*/
+	background-color: rgba(241, 205, 179, 1); /*задаём цвет линии*/
+	content: "";
+  transition: width .5s ease-in-out;
+}
+
+li:hover:after,
+li:focus:after {
+	width: 100%; /*устанавливаем значение 100% чтобы ссылка подчёркивалась полностью*/
+}
+.start__title {
+  margin-bottom: 15px;
+}
+
+.start__text {
+  padding-top: 15px;
+  margin-bottom: 40px;
+
+}
+
+.start__button {
+  background-color: rgba(241, 205, 179, 1);
+  color: rgba(41, 41, 41, 1);
+  border-radius: 45px;
+  border: 2px solid rgba(241, 205, 179, 1);
+  padding: 15px 43px;
+  text-decoration: none;
+  transition: 0.2s ease;
+  cursor: pointer;
+  font-family: Georgia;
+  letter-spacing: 1px;
+  font-size: 17px;
+
+ }
+.start__button:hover{
+  color: rgba(41, 41, 41, 1);
+  background-color: rgb(240, 231, 224);
+  border:  rgb(240, 231, 224);
+}
+
+.start-screen {
+  padding-top: 90px;
 }
 
 .pets {
