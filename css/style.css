@@ -72,9 +72,8 @@ width: 100%;
   margin-bottom: 40px;
 }
 
-.main__button {
-  background-color: rgba(241, 205, 179, 1);
-  color: rgba(41, 41, 41, 1);
+.main__button{
+  color:#F1CDB3;
   border-radius: 45px;
   border: 2px solid rgba(241, 205, 179, 1);
   padding: 15px 43px;
@@ -86,10 +85,12 @@ width: 100%;
   font-size: 17px;
 }
 
-.main__button:hover {
+.main__button:hover,
+.card__button:hover{
+  
   color: rgba(41, 41, 41, 1);
-  background-color: rgb(240, 231, 224);
-  border: rgb(240, 231, 224);
+  background-color:#F1CDB3;
+  border: rgb(104, 96, 90);
 }
 
 .main__screen {
@@ -97,7 +98,6 @@ width: 100%;
 }
 #about{
 height: 588px;
-margin-bottom: 80px;
 
 }
 .about-img{
@@ -126,7 +126,43 @@ line-height: 160%;
 padding-top: 15px;
 }
 
-
+#card {
+  background-color: #F6F6F6;
+  padding-bottom: 87px;
+}
+.title-card{
+  font-family: Georgia;
+font-size: 35px;
+color: #4C4C4C; 
+text-align: center;
+letter-spacing:1.2px;
+word-spacing: 1px;
+margin-bottom: 60px;
+padding-top: 80px;
+}
+.card-name{
+font-family: Georgia;
+font-size: 20px;
+color:#545454;
+letter-spacing: 1px;
+padding-bottom: 25px;
+}
+.card__button{
+  color: rgba(41, 41, 41, 1);
+  border-radius: 45px;
+  border: 2px solid rgba(241, 205, 179, 1);
+  padding: 15px 43px;
+  text-decoration: none;
+  transition: 0.2s ease;
+  cursor: pointer;
+  font-family: Georgia;
+  letter-spacing: 1px;
+  font-size: 17px;
+ }
+ .card-rest-btn{
+   margin-top: 60px;
+  margin-left: 39%;
+ }
 
 .carousel-inner {
   padding-left: 75px;
@@ -162,6 +198,7 @@ padding-top: 15px;
   width: 270px;
   text-align: center;
   background-color: #fafafa;
+  border:none;
 }
 
 .donate__content {
