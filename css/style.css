@@ -7,17 +7,20 @@ body {
 
 .header {
   background: url(../img/podl.png), radial-gradient(70% 215.42% at 0% 0%, #44352b 0%, #262425 100%), #211F20;
-  padding-top: 50px;
+  padding-top: 40px;
+ }
+
+.block-text{
+  padding-top:210px
 }
 
-.start__title {
+.main-title {
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 44px;
   letter-spacing: 3px;
-
 }
 
-.start__text,
+.main-text,
 .nav-link {
    color: rgba(205, 205, 205, 1);
   font-family: Arial;
@@ -31,45 +34,51 @@ body {
 }
 
 .nav-link,
-.start__title {
+.main-title {
   color: #fff;
+
 }
 .nav-link:hover {
-color: #fff;
-}
+  color: #fff;
+  font-weight:bold;
+  }
+
 li {
 	position: relative;
 	color: rgba(241, 205, 179, 1);
 	cursor: pointer;
 	line-height: 1; /*задаём высоту строки*/
 	text-decoration: none; /*убираем подчёркивание*/
-
+    
 }
 li:after {
 	display: block;
 	position: absolute;
 	width: 0;/*задаём длинну линии до наведения курсора*/
-	height: 3px; /*задаём ширину линии*/
+	height: 4px; /*задаём ширину линии*/
 	background-color: rgba(241, 205, 179, 1); /*задаём цвет линии*/
 	content: "";
   transition: width .5s ease-in-out;
+  
+
 }
 
 li:hover:after,
 li:focus:after {
-	width: 100%; /*устанавливаем значение 100% чтобы ссылка подчёркивалась полностью*/
+  width: 100%; /*устанавливаем значение 100% чтобы ссылка подчёркивалась полностью*/
+  
 }
-.start__title {
+.main-title {
   margin-bottom: 15px;
 }
 
-.start__text {
+.main-text {
   padding-top: 15px;
   margin-bottom: 40px;
 
 }
 
-.start__button {
+.main-button {
   background-color: rgba(241, 205, 179, 1);
   color: rgba(41, 41, 41, 1);
   border-radius: 45px;
@@ -83,13 +92,13 @@ li:focus:after {
   font-size: 17px;
 
  }
-.start__button:hover{
+.main-button:hover{
   color: rgba(41, 41, 41, 1);
   background-color: rgb(240, 231, 224);
   border:  rgb(240, 231, 224);
 }
 
-.start-screen {
+.main-screen {
   padding-top: 90px;
 }
 
