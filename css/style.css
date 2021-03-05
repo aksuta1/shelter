@@ -8,77 +8,71 @@ body {
 .header {
   background: url(../img/podl.png), radial-gradient(70% 215.42% at 0% 0%, #44352b 0%, #262425 100%), #211F20;
   padding-top: 40px;
- }
-
-.block-text{
-  padding-top:210px
 }
 
-.main-title {
+.block-text {
+  padding-top: 210px
+}
+
+.main__title {
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 44px;
   letter-spacing: 3px;
 }
 
-.main-text,
+.main__text,
 .nav-link {
-   color: rgba(205, 205, 205, 1);
+  color: rgba(205, 205, 205, 1);
   font-family: Arial;
   font-style: normal;
   font-weight: normal;
   font-size: 15px;
- }
-
-.section {
-  padding-top: 100px;
 }
 
 .nav-link,
-.main-title {
+.main__title {
   color: #fff;
-
 }
+
 .nav-link:hover {
   color: #fff;
-  font-weight:bold;
-  }
+  font-weight: bold;
+}
 
 li {
-	position: relative;
-	color: rgba(241, 205, 179, 1);
-	cursor: pointer;
-	line-height: 1; /*задаём высоту строки*/
-	text-decoration: none; /*убираем подчёркивание*/
-    
+  position: relative;
+  color: rgba(241, 205, 179, 1);
+  cursor: pointer;
+  line-height: 1;
+  text-decoration: none;
+ 
 }
-li:after {
-	display: block;
-	position: absolute;
-	width: 0;/*задаём длинну линии до наведения курсора*/
-	height: 4px; /*задаём ширину линии*/
-	background-color: rgba(241, 205, 179, 1); /*задаём цвет линии*/
-	content: "";
-  transition: width .5s ease-in-out;
-  
 
+li:after {
+  display: block;
+  position: absolute;
+  width: 0;
+  height: 4px;
+  background-color: rgba(241, 205, 179, 1);
+  content: "";
+  transition: width .5s ease-in-out;
 }
 
 li:hover:after,
 li:focus:after {
-  width: 100%; /*устанавливаем значение 100% чтобы ссылка подчёркивалась полностью*/
-  
+width: 100%;
 }
-.main-title {
+
+.main__title {
   margin-bottom: 15px;
 }
 
-.main-text {
+.main__text {
   padding-top: 15px;
   margin-bottom: 40px;
-
 }
 
-.main-button {
+.main__button {
   background-color: rgba(241, 205, 179, 1);
   color: rgba(41, 41, 41, 1);
   border-radius: 45px;
@@ -90,25 +84,49 @@ li:focus:after {
   font-family: Georgia;
   letter-spacing: 1px;
   font-size: 17px;
+}
 
- }
-.main-button:hover{
+.main__button:hover {
   color: rgba(41, 41, 41, 1);
   background-color: rgb(240, 231, 224);
-  border:  rgb(240, 231, 224);
+  border: rgb(240, 231, 224);
 }
 
-.main-screen {
+.main__screen {
   padding-top: 90px;
 }
+#about{
+height: 588px;
+margin-bottom: 80px;
 
+}
+.about-img{
+  padding-top: 82px;
+}
 .pets {
-  margin-left: 150px;
+  margin-left: 170px;
 }
 
 .about__content {
   width: 450px;
+  padding-top: 80px;
+  padding-left: 0;
+  color: #4C4C4C; 
 }
+.about__title{
+ font-family: Georgia;
+ font-size: 35px;
+ letter-spacing: 0.06em;
+ line-height: 135%;
+}
+.about__text{
+font-family: Arial;
+font-size: 15px;
+line-height: 160%; 
+padding-top: 15px;
+}
+
+
 
 .carousel-inner {
   padding-left: 75px;
