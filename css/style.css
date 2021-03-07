@@ -4,10 +4,10 @@ body {
   width: 100%;
   min-width: 360px;
   margin: auto;
-  }
+}
 
 .header {
-  background:  radial-gradient(100% 900.42% at 0% 0%, #40342d 0%, #19181b 100%), #19181b;
+  background: radial-gradient(100% 900.42% at 0% 0%, #40342d 0%, #19181b 100%), #19181b;
   padding-top: 40px;
 
 }
@@ -34,7 +34,7 @@ body {
 .nav-link {
   color: #cdcdcd;
 }
- 
+
 
 .nav-link:hover {
   color: #fff;
@@ -43,7 +43,7 @@ body {
 
 li {
   position: relative;
-  color:#f1cdb3;
+  color: #f1cdb3;
   cursor: pointer;
   line-height: 1;
   text-decoration: none;
@@ -67,13 +67,13 @@ li:focus:after {
 
 .main__title {
   margin-bottom: 15px;
-  color:#ffffff;
+  color: #ffffff;
 }
 
 .main__text {
   padding-top: 15px;
   margin-bottom: 40px;
-  color:#cdcdcd;
+  color: #cdcdcd;
   font-family: Arial;
   font-style: normal;
   font-weight: normal;
@@ -96,9 +96,9 @@ li:focus:after {
 .main__button:hover,
 .card__button:hover {
 
-  color:#292929;
+  color: #292929;
   background-color: #f1cdb3;
-  border:#292929;
+  border: #292929;
 }
 
 .main__screen {
@@ -126,13 +126,16 @@ li:focus:after {
   line-height: 135%;
   color: #545454;
 
-} 
+}
+
 .about__content {
   width: 450px;
   padding-top: 80px;
   padding-left: 0;
   color: #5c5c5c;
-  
+  margin-right: 30px;
+
+
 }
 
 
@@ -240,9 +243,10 @@ li:focus:after {
   width: 400px;
 }
 
-#help{
-  color:#fafafa;
+#help {
+  color: #fafafa;
 }
+
 .help {
   padding-top: 82px;
   padding-left: 3px;
@@ -250,10 +254,11 @@ li:focus:after {
 }
 
 .help__title {
-  color:#545454;
+  color: #545454;
   margin-bottom: 58px;
   text-align: center;
 }
+
 .help__list {
   padding: 0;
   list-style: none;
@@ -268,16 +273,17 @@ li:focus:after {
   margin-left: 60px;
   margin-bottom: 55px;
   list-style-type: none;
- }
+}
 
 .help__img {
   display: block;
   margin: 0 auto;
   margin-bottom: 30px;
 }
-.help__name{
-  color:#7e7e7e;
- }
+
+.help__name {
+  color: #7e7e7e;
+}
 
 #donation {
   background-color: #f6f6f6;
@@ -286,33 +292,40 @@ li:focus:after {
   padding-bottom: 70px;
   padding-right: 100px;
 }
-.donate_img{
+
+.donate_img {
   Width: 505px;
-  Height:261px
+  Height: 261px
 }
-.donation__title{
+
+.donation__title {
   font-family: Georgia;
   font-size: 35px;
-  letter-spacing: 0.06em;
- }
-.dination__bank_text{
-  font-family: Georgia;
-font-style: normal;
-font-weight: normal;
-font-size: 15px;
- color:#545454;
- margin-top: 20px;
-}
-.donation__text{
-font-family: Arial;
-font-style: italic;
-font-weight: normal;
-font-size: 12px;
-line-height: 18px;
-color:#c1c1c1;
-margin-top: 35px;
+  letter-spacing: 2px;
+  width: 360px;
 
 }
+
+.dination__bank_text {
+  font-family: Georgia;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  color: #545454;
+  margin-top: 20px;
+}
+
+.donation__text {
+  font-family: Arial;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 18px;
+  color: #c1c1c1;
+  margin-top: 35px;
+
+}
+
 .donation__button {
   font-family: Georgia;
   color: #292929;
@@ -337,51 +350,53 @@ margin-top: 35px;
 
 #footer {
   background: radial-gradient(100% 900.42% at 0% 0%, #40342d 0%, #19181b 100%), #19181b;
- padding-left: 0px; 
-height: 350px;
-font-family: Georgia, 'Times New Roman', Times, serif;
+  padding-left: 0px;
+  height: 350px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 
 }
 
-.footer__contacts{ 
+.footer__contacts {
   width: 280px;
   height: 250px;
-  color:#e2c0a7;
+  color: #e2c0a7;
   padding-top: 70px;
-   line-height: 49px;
+  line-height: 49px;
 }
 
 .mail,
 .phone,
-.adress{
+.adress {
   margin-right: 15px;
 }
-.footer__text{
+
+.footer__text {
   word-spacing: 3px;
 }
-.footer__location{
+
+.footer__location {
   width: 382px;
   height: 229px;
   padding-left: 120px;
-  color:#e2c0a7;
+  color: #e2c0a7;
   padding-top: 70px;
- 
-}
-
-.footer__title{
- font-size: 35px;
-color:#ffffff;
-letter-spacing:2px; 
-line-height: 49px;
-
 
 }
-.footer__img{
+
+.footer__title {
+  font-size: 35px;
+  color: #ffffff;
+  letter-spacing: 2px;
+  line-height: 49px;
+  width: 278px;
+
+
+}
+
+.footer__img {
   margin-left: 50px;
   Width: 300px;
-Height:auto;
-padding-top: 20px;
+  Height: auto;
+  padding-top: 20px;
 
- } 
-
-
+}
