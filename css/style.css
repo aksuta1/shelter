@@ -31,10 +31,6 @@ body {
   font-size: 15px;
 }
 
-.nav-link {
-  color: #cdcdcd;
-}
-
 
 .nav-link:hover {
   color: #fff;
@@ -91,6 +87,7 @@ li:focus:after {
   font-family: Georgia;
   letter-spacing: 1px;
   font-size: 17px;
+  width:207px
 }
 
 .main__button:hover,
@@ -113,10 +110,11 @@ li:focus:after {
 
 .about-img {
   padding-top: 82px;
+
 }
 
 .pets {
-  margin-left: 170px;
+  margin-left: 140px;
 }
 
 .about__title {
@@ -134,11 +132,8 @@ li:focus:after {
   padding-left: 0;
   color: #5c5c5c;
   margin-right: 30px;
-
-
+  word-spacing: 0.5px;
 }
-
-
 
 .about__text {
   font-family: Arial;
@@ -163,7 +158,6 @@ li:focus:after {
   padding-top: 80px;
   word-spacing: 1px;
 
-
 }
 
 .help__title {
@@ -179,7 +173,7 @@ li:focus:after {
 .card-name {
   font-family: Georgia;
   font-size: 20px;
-  color: #fafafa;
+  color: #4C4C4C;
   letter-spacing: 1px;
   padding-bottom: 25px;
 }
@@ -188,18 +182,51 @@ li:focus:after {
   color: #292929;
   border-radius: 45px;
   border: 2px solid #f1cdb3;
-  padding: 15px 43px;
+  padding: 12px 43px;
   text-decoration: none;
   transition: 0.2s ease;
   cursor: pointer;
   font-family: Georgia;
   letter-spacing: 1px;
   font-size: 17px;
+  width:190px;
+  height: 52px;
+  margin-left: 25px;
+  text-align: center;
+ 
+ 
+ }
+.card-rest-btn{
+  margin-top: 65px;
 }
+.card__button_rest {
+   margin-left: 38%;
+   height: 52px;
+  color: #292929;
+  border-radius: 45px;
+  border: 2px solid #f1cdb3;
+  padding: 12px 43px;
+  text-decoration: none;
+  transition: 0.2s ease;
+  cursor: pointer;
+  font-family: Georgia;
+  letter-spacing: 1px;
+  font-size: 17px;
+  text-align: center;
+  width: 270px;
 
-.card-rest-btn {
-  margin-top: 60px;
-  margin-left: 39%;
+}
+.carousel__button{
+  color: #292929;
+  border-radius: 50%;
+  border: 2px solid #f1cdb3;
+  padding: 10px 15px;
+
+}
+.carousel__button:hover,
+.card__button_rest:hover{
+  color: #292929;
+  background-color: #f1cdb3;
 }
 
 .carousel-inner {
@@ -257,6 +284,7 @@ li:focus:after {
   color: #545454;
   margin-bottom: 58px;
   text-align: center;
+ 
 }
 
 .help__list {
@@ -267,6 +295,7 @@ li:focus:after {
   justify-content: center;
   margin: 0 auto;
 }
+
 
 .help__item {
   margin-right: 60px;
@@ -279,6 +308,7 @@ li:focus:after {
   display: block;
   margin: 0 auto;
   margin-bottom: 30px;
+
 }
 
 .help__name {
@@ -356,7 +386,7 @@ li:focus:after {
 
 }
 
-.footer__contacts {
+.footer-contacts {
   width: 280px;
   height: 250px;
   color: #e2c0a7;
@@ -374,7 +404,7 @@ li:focus:after {
   word-spacing: 3px;
 }
 
-.footer__location {
+.footer-location {
   width: 382px;
   height: 229px;
   padding-left: 120px;
@@ -393,10 +423,10 @@ li:focus:after {
 
 }
 
-.footer__img {
+.footer-img {
   margin-left: 50px;
-  Width: 300px;
-  Height: auto;
+  width: 300px;
+  height: auto;
   padding-top: 20px;
 
 }

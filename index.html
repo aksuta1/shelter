@@ -42,7 +42,7 @@
             <h2 class="main__title">Not only people <br>need a house</h2>
             <p class="main__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cras gravida <br>est in
               porttitor porttitor.Duis sodales elementum ipsum, vehicula <br>condimentum erat fringilla et.</p>
-            <a class="main__button" href="#">Make a friend</a>
+            <p class="main__button" data-href="#">Make a friend</p>
           </div>
           <div class="col-6 main__screen">
             <img class="w-120" src="img/start-screen-puppy.png" alt="puppy">
@@ -55,10 +55,10 @@
   <section id="about">
     <div class="container-xl">
       <div class="row align-items-center">
-        <div class="col-6 about-img">
+        <div class="col-4 about-img">
           <img class="w-80 pets" src="img/pets.png" alt="cat and dog">
         </div>
-        <div class="col-6 about__content">
+        <div class="col-8 about__content">
           <h3 class="about__title">About the shelter<br> “Cozy House” </h3>
           <p class="about__text">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce efficitur blandit condimentum. Proin accumsan
@@ -90,8 +90,7 @@
                   <img src="img/cat.png" class="card-img-top" alt="...">
                   <div class="card-body">
                     <h5 class="card-name">Katrine</h5>
-                    <a class="card__button" href="#">Learn More</a>
-
+                    <p class="card__button" data-href="#">Learn More</p>
                   </div>
                 </div>
               </div>
@@ -100,7 +99,7 @@
                   <img src="img/jennifer.png" class="card-img-top-jenifer" alt="...">
                   <div class="card-body">
                     <h5 class="card-name">Jennifer</h5>
-                    <a class="card__button" href="#">Learn More</a>
+                    <p class="card__button" data-href="#">Learn More</p>
                   </div>
                 </div>
               </div>
@@ -109,7 +108,7 @@
                   <img src="img/woody.png" class="card-img-top-woody" alt="...">
                   <div class="card-body">
                     <h5 class="card-name">Woody</h5>
-                    <a class="card__button" href="#">Learn More</a>
+                    <p class="card__button" data-href="#">Learn More</p>
                   </div>
                 </div>
               </div>
@@ -122,7 +121,7 @@
                   <img src="img/cat.png" class="card-img-top" alt="...">
                   <div class="card-body">
                     <h5 class="card-name">Katrine2</h5>
-                    <a class="card__button" href="#">Learn More</a>
+                    <p class="card__button" data-href="#">Learn More</p>
                   </div>
                 </div>
               </div>
@@ -131,7 +130,7 @@
                   <img src="img/jennifer.png" class="card-img-top-jenifer" alt="...">
                   <div class="card-body">
                     <h5 class="card-name">Jennifer2</h5>
-                    <a class="card__button" href="#">Learn More</a>
+                    <p class="card__button" data-href="#">Learn More</p>
                   </div>
                 </div>
               </div>
@@ -140,58 +139,31 @@
                   <img src="img/woody.png" class="card-img-top-woody" alt="...">
                   <div class="card-body">
                     <h5 class="card-name">Woody2</h5>
-                    <a class="card__button" href="#">Learn More</a>
+                    <p class="card__button" data-href="#">Learn More</p>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <div class="carousel-item">
-            <div class="row justify-content-between">
-              <div class="col">
-                <div class="card w-90">
-                  <img src="img/cat.png" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-name">Katrine3</h5>
-                    <a class="card__button" href="#">Learn More</a>
-                  </div>
-                </div>
-              </div>
-              <div class="col">
-                <div class="card jenifer-img">
-                  <img src="img/jennifer.png" class="card-img-top-jenifer" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-name">Jennifer3</h5>
-                    <a class="card__button" href="#">Learn More</a>
-                  </div>
-                </div>
-              </div>
-              <div class="col">
-                <div class="card ">
-                  <img src="img/woody.png" class="card-img-top-woody" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-name">Woody3</h5>
-                    <a class="card__button" href="#">Learn More</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+          
         </div>
         <button class="carousel-control-prev " type="button" data-bs-target="#carouselExampleControls"
           data-bs-slide="prev">
-          <img class="pets__arrow" alt="arrow left" width="14" height="6" src="img/arrow-left.png">
+          <span class="carousel__button" data-href="#"><img class="pets__arrow" alt="arrow left" src="img/arrow-left.png"></span>
+
+          <!--  -->
         </button>
         <div class="ico-circle">
           <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
             data-bs-slide="next">
-            <img class="pets__arrow" alt="arrow right" width="14" height="6" src="img/arrow-right.png">
-             
+            <span class="carousel__button" data-href="#"><img class="pets__arrow" alt="arrow right"
+                src="img/arrow-right.png"></span>
+
           </button>
         </div>
       </div>
       <div class="card-rest-btn">
-        <a class="card__button " href="#">Get to know the rest</a>
+        <p class="card__button_rest" data-href="#">Get to know the rest</p>
       </div>
     </div>
 
@@ -244,7 +216,7 @@
 
   <section id="donation">
     <div class="container-xl">
-      <div class="row ">
+      <div class="row">
         <div class="col-7 donate_img">
           <img class="w-80" src="img/dog-card.png" alt="cat and dog">
         </div>
@@ -254,10 +226,8 @@
           <a class="donation__button" href=""> <img class="" src="img/credit-card.svg" alt="card">8380 2880 8791
             7435</a>
           <p class="donation__text">Legal information and Lorem ipsum dolor sit amet, consectetur adipiscing
-            elit.Maecenas
-            a
-            ipsum at libero sagittis dignissim sed ac diam.Praesent ultrices maximus tortor et vulputate. Interdum et
-            malesuada fames ac ante ipsum primisin faucibus.</p>
+            elit.Maecenas a ipsum at libero sagittis dignissim sed ac diam.Praesent ultrices maximus tortor et
+            vulputate. Interdum et malesuada fames ac ante ipsum primisin faucibus.</p>
         </div>
       </div>
     </div>
@@ -266,25 +236,23 @@
   <section id="footer">
     <div class="container-xl">
       <div class="row footer">
-        <div class="col footer__contacts ">
+        <div class="col footer-contacts ">
           <h3 class="footer__title">For questions and suggestions</h3>
           <p class="footer__email footer__text"> <img class="width-10 mail" src="img/mail.png"
               alt="mail">email@shelter.com
           </p>
-          <p class="footer__phone footer__text"> <img class="width-10 phone" src="img/telephone.png" alt="phone">+13 674
-            567
-            75
-            54</p>
+          <p class="footer__phone footer__text"> <img class="width-10 phone" src="img/telephone.png" alt="phone">+13 674 567 75 54</p>
         </div>
-        <div class="col footer__location">
+        <div class="col footer-location">
           <h3 class="footer__title footer__title-location">We are waiting for your visit</h3>
-          <p class="footer__address footer__text"><img class="width-10 adress" src="img/pin.png" alt="pin"> Boston, Central
-            Street, 1st <br>  (Entrance from the store)</p>
+          <p class="footer__address footer__text"><img class="width-10 adress" src="img/pin.png" alt="pin"> Boston,
+            Central
+            Street, 1st <br> (Entrance from the store)</p>
           <p class="footer__address footer__text"><img class="width-10 adress" src="img/pin.png" alt="pin">London, South
-            Park, 18st  </p>
+            Park, 18st </p>
         </div>
-        <div class="col footer__img">
-        <img class="footer__img" src="img/new.png" alt="">
+        <div class="col footer-img">
+          <img class="footer__img" src="img/new.png" alt="">
         </div>
       </div>
     </div>
@@ -295,4 +263,5 @@
     integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous">
   </script>
 </body>
+
 </html>
