@@ -9,7 +9,7 @@ body {
 .header {
   background:  radial-gradient(100% 900.42% at 0% 0%, #40342d 0%, #19181b 100%), #19181b;
   padding-top: 40px;
- 
+
 }
 
 .block-text {
@@ -284,7 +284,11 @@ li:focus:after {
   color: #545454;
   padding-top: 70px;
   padding-bottom: 70px;
-
+  padding-right: 100px;
+}
+.donate_img{
+  Width: 505px;
+  Height:261px
 }
 .donation__title{
   font-family: Georgia;
@@ -332,36 +336,52 @@ margin-top: 35px;
 }
 
 #footer {
-  background: url(background.png), radial-gradient(100% 900.42% at 0% 0%, #40342d 0%, #19181b 100%), #19181b;
-  
-  display: flex;
-  justify-content: space-between;
-  padding-top: 50px;
-padding-left: 170px; 
+  background: radial-gradient(100% 900.42% at 0% 0%, #40342d 0%, #19181b 100%), #19181b;
+ padding-left: 0px; 
+height: 350px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+
 }
-.footer__contacts{
+
+.footer__contacts{ 
   width: 280px;
   height: 250px;
   color:#e2c0a7;
-
+  padding-top: 70px;
+   line-height: 49px;
 }
 
+.mail,
+.phone,
+.adress{
+  margin-right: 15px;
+}
+.footer__text{
+  word-spacing: 3px;
+}
 .footer__location{
   width: 382px;
   height: 229px;
-  padding-left: 80px;
+  padding-left: 120px;
   color:#e2c0a7;
+  padding-top: 70px;
+ 
 }
 
 .footer__title{
-font-family: Georgia;
-font-size: 35px;
+ font-size: 35px;
 color:#ffffff;
-letter-spacing:2px;
+letter-spacing:2px; 
+line-height: 49px;
+
+
 }
+.footer__img{
+  margin-left: 50px;
+  Width: 300px;
+Height:auto;
+padding-top: 20px;
 
-
-
-
+ } 
 
 
