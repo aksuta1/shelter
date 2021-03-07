@@ -310,14 +310,35 @@ margin-top: 35px;
   color: rgba(41, 41, 41, 1);
   background-color: rgb(202, 171, 148);
   border: rgb(202, 171, 148);
-
-
 }
 
-.footer {
+#footer {
   background: url(background.png), radial-gradient(100% 900.42% at 0% 0%, #5B483A 0%, #262425 100%), #211F20;
   display: flex;
   justify-content: space-between;
-  padding-top: 30px;
+  padding-top: 50px;
+padding-left: 170px; 
+}
+.footer__contacts{
+  width: 280px;
+  height: 250px;
+  color: rgb(202, 171, 148);
 
 }
+
+.footer__location{
+  width: 382px;
+  height: 229px;
+  padding-left: 80px;
+}
+
+.footer__title{
+font-family: Georgia;
+font-size: 35px;
+color:#fff;
+letter-spacing:2px;
+}
+
+
+
+
