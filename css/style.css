@@ -7,9 +7,8 @@ body {
 }
 
 .header {
-  background: radial-gradient(100% 900.42% at 0% 0%, #40342d 0%, #19181b 100%), #19181b;
+  background:radial-gradient(100% 900.42% at 0% 0%, #40342d 0%, #19181b 100%), #19181b;
   padding-top: 40px;
-
 }
 
 .block-text {
@@ -43,7 +42,6 @@ li {
   cursor: pointer;
   line-height: 1;
   text-decoration: none;
-
 }
 
 li:after {
@@ -105,16 +103,14 @@ li:focus:after {
 #about {
   height: 588px;
   background: #fafafa;
-
 }
 
 .about-img {
   padding-top: 82px;
-
 }
 
 .pets {
-  margin-left: 140px;
+  margin-left: 40px;
 }
 
 .about__title {
@@ -123,7 +119,6 @@ li:focus:after {
   letter-spacing: 0.06em;
   line-height: 135%;
   color: #545454;
-
 }
 
 .about__content {
@@ -157,7 +152,6 @@ li:focus:after {
   margin-bottom: 60px;
   padding-top: 80px;
   word-spacing: 1px;
-
 }
 
 .help__title {
@@ -168,7 +162,6 @@ li:focus:after {
   padding-bottom: 20px;
   letter-spacing: 1.4px;
 }
-
 
 .card-name {
   font-family: Georgia;
@@ -193,8 +186,6 @@ li:focus:after {
   height: 52px;
   margin-left: 25px;
   text-align: center;
- 
- 
  }
 .card-rest-btn{
   margin-top: 65px;
@@ -214,7 +205,6 @@ li:focus:after {
   font-size: 17px;
   text-align: center;
   width: 270px;
-
 }
 .carousel__button{
   color: #292929;
@@ -296,7 +286,6 @@ li:focus:after {
   margin: 0 auto;
 }
 
-
 .help__item {
   margin-right: 60px;
   margin-left: 60px;
@@ -308,7 +297,6 @@ li:focus:after {
   display: block;
   margin: 0 auto;
   margin-bottom: 30px;
-
 }
 
 .help__name {
@@ -333,7 +321,6 @@ li:focus:after {
   font-size: 35px;
   letter-spacing: 2px;
   width: 360px;
-
 }
 
 .dination__bank_text {
@@ -353,7 +340,6 @@ li:focus:after {
   line-height: 18px;
   color: #c1c1c1;
   margin-top: 35px;
-
 }
 
 .donation__button {
@@ -383,7 +369,6 @@ li:focus:after {
   padding-left: 0px;
   height: 350px;
   font-family: Georgia, 'Times New Roman', Times, serif;
-
 }
 
 .footer-contacts {
@@ -395,8 +380,7 @@ li:focus:after {
 }
 
 .mail,
-.phone,
-.adress {
+.phone{
   margin-right: 15px;
 }
 
@@ -410,7 +394,6 @@ li:focus:after {
   padding-left: 120px;
   color: #e2c0a7;
   padding-top: 70px;
-
 }
 
 .footer__title {
@@ -419,8 +402,6 @@ li:focus:after {
   letter-spacing: 2px;
   line-height: 49px;
   width: 278px;
-
-
 }
 
 .footer-img {
@@ -428,5 +409,4 @@ li:focus:after {
   width: 300px;
   height: auto;
   padding-top: 20px;
-
 }
