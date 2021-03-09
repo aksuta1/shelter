@@ -1,3 +1,4 @@
+
 // Цвета
 $normal: #545454;
 $gray:#cdcdcd;
@@ -428,3 +429,147 @@ li {
   height: auto;
   padding-top: 20px;
 }
+
+
+/* Medium Devices, Desktops */
+
+@media only screen and (max-width : 576px) {
+  html,
+  body {
+    height:100%;  
+   }
+   .d-flex{
+    padding-left: 35px;
+   }
+   .block-text{
+     padding-top: 40px;
+  width: 100%;
+   }
+  .main__screen{
+    width: 50px;
+    padding-top: 30px;
+  }
+  .w-120{
+    width: 230px;
+    height: 200px;
+    padding-right: 80px;
+  }
+  .w-80{
+    width: 150px;
+    padding-right: 30px;
+  }
+  .about-img{
+    width: 314px;
+    padding-top: 0px;
+
+  
+  }
+  .about__content{
+    padding-top: 10px;
+  margin-right: 0px;
+  }
+  
+  .title-card{
+    padding-top: 470px;
+
+  
+  }
+  .carousel-inner{
+    padding-left: 20px;
+  }
+  .carousel-control-prev{
+    margin-left: 10px;
+  
+  }
+  .carousel-control-next{
+    margin-right: 20px;
+  }
+  .card__button_rest{
+    margin-left: 40px;
+  }
+  #donation{
+    width: 490px;
+  }
+  .donate_img{
+    width: 204px;
+    height: 100px;
+      padding-top: 0px;
+
+  }
+  .donation__title{
+    width: 340px;
+  }
+  .donation__bank_text{
+  width: 160px;
+  }
+  .donation__button{
+    Width:281px;
+  Height:43px;
+  }
+  .donation__text{
+    width: 290px;
+  }
+  #footer{
+    height: 900px;
+  }
+  .footer-contacts {
+    padding-top: 40px;
+  }
+  .footer-location{
+    padding-top: 40px;
+    padding-left: 15px;
+  
+  }
+  .footer-img{
+    padding-top: 60px;
+    margin-left: 0px;
+  }
+  }
+  
+  /* Small Devices, Tablets */
+  @media only screen and (max-width : 768px) {
+  
+  #about{
+    height:488px;
+  }
+  .about-img{
+    padding-top: 40px;
+    
+  }
+  .about__title{
+    padding-top: 40px;
+  }
+  
+  .title-card{
+    padding-top: 80px;
+  }
+  .carousel-inner{
+    padding-left: 20px;
+  }
+  .carousel-control-prev{
+    margin-left: 10px;
+  }
+  .carousel-control-next{
+    margin-right: 20px;
+  }
+  .card__button_rest{
+    margin-left: 240px;
+  }
+  #donation{
+    width: 768px;
+  }
+  .w-80{
+    width: 230px;
+    padding-top: 120px;
+    padding-right: 0px;
+  }
+  .donate__content{
+    padding-left: 70px;
+  }
+  .footer__img{
+    width: 160px;
+    height: 140px;
+    margin-left: 200px;
+    margin-bottom: 0px;
+  }
+  }
