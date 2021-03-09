@@ -1,3 +1,18 @@
+// Цвета
+$normal: #545454;
+$gray:#cdcdcd;
+$gray-dark:#292929;
+$gray-light:#fafafa;
+$basic-light: #f6f6f6;
+$pink: #f1cdb3;
+$pink-dark:#a97955;
+$white: #fff;
+
+// Шрифты
+$main-font: "Georgia", "Arial", sans-serif;
+$text-font: "Arial", sans-serif;
+
+
 html, body {
   height: 100%;
   width: 100%;
@@ -15,81 +30,85 @@ html, body {
 }
 
 .main__title {
-  font-family: "Georgia", "Arial", sans-serif;
+  font-family: $main-font;
   font-size: 44px;
   letter-spacing: 3px;
 }
 
 .nav-link {
-  color: #cdcdcd;
-  font-family: "Arial", sans-serif;
+  color: $gray;
+  font-family: $text-font;
   font-style: normal;
   font-weight: normal;
   font-size: 15px;
-}
-.nav-link:hover {
-  color: #fff;
-  font-weight: bold;
+
+  &:hover {
+    color:$white;
+    font-weight: bold;
+  }
 }
 
 li {
   position: relative;
-  color: #f1cdb3;
+  color: $pink;
   cursor: pointer;
   line-height: 1;
   text-decoration: none;
-}
-li:after {
-  display: block;
-  position: absolute;
-  width: 0;
-  height: 4px;
-  background-color: #f1cdb3;
-  content: "";
-  transition: width 0.5s ease-in-out;
-}
-li:hover:after, li:focus:after {
-  width: 100%;
+
+  &:after {
+    display: block;
+    position: absolute;
+    width: 0;
+    height: 4px;
+    background-color:$pink;
+    content: "";
+    transition: width .5s ease-in-out;
+  }
+
+  &:hover:after, &:focus:after {
+    width: 100%;
+  }
 }
 
 .main__title {
   margin-bottom: 15px;
-  color: #fff;
+  color:$white;
 }
 
 .main__text {
   padding-top: 15px;
   margin-bottom: 40px;
-  color: #cdcdcd;
-  font-family: "Arial", sans-serif;
+  color: $gray;
+  font-family: $text-font;
   font-style: normal;
   font-weight: normal;
   font-size: 15px;
 }
 
 .main__button {
-  color: #f1cdb3;
+  color: $pink;
   border-radius: 45px;
-  border: 2px solid #f1cdb3;
+  border: 2px solid $pink;
   padding: 15px 43px;
   text-decoration: none;
   transition: 0.2s ease;
   cursor: pointer;
-  font-family: "Georgia", "Arial", sans-serif;
+  font-family: $main-font;
   letter-spacing: 1px;
   font-size: 17px;
   width: 207px;
-}
-.main__button:hover {
-  color: #292929;
-  background-color: #f1cdb3;
-  border: #292929;
+
+  &:hover {
+    color: $gray-dark;
+    background-color: $pink;
+    border: $gray-dark;
+  }
 }
 
 .card__button:hover {
-  color: #292929;
-  background-color: #f1cdb3;
-  border: #292929;
+  color: $gray-dark;
+  background-color: $pink;
+  border: $gray-dark;
 }
 
 .main__screen {
@@ -98,7 +117,7 @@ li:hover:after, li:focus:after {
 
 #about {
   height: 588px;
-  background: #fafafa;
+  background: $gray-light;
 }
 
 .about-img {
@@ -110,38 +129,38 @@ li:hover:after, li:focus:after {
 }
 
 .about__title {
-  font-family: "Georgia", "Arial", sans-serif;
+  font-family: $main-font;
   font-size: 35px;
   letter-spacing: 0.06em;
   line-height: 135%;
-  color: #545454;
+  color: $normal;
 }
 
 .about__content {
   width: 450px;
   padding-top: 80px;
   padding-left: 0;
-  color: #545454;
+  color: $normal;
   margin-right: 30px;
   word-spacing: 0.5px;
 }
 
 .about__text {
-  font-family: "Arial", sans-serif;
+  font-family: $text-font;
   font-size: 15px;
   line-height: 160%;
   padding-top: 15px;
 }
 
 #card {
-  background-color: #f6f6f6;
+  background-color: $basic-light;
   padding-bottom: 87px;
 }
 
 .title-card {
-  font-family: "Georgia", "Arial", sans-serif;
+  font-family: $main-font;
   font-size: 35px;
-  color: #545454;
+  color: $normal;
   text-align: center;
   letter-spacing: 1.2px;
   word-spacing: 1px;
@@ -151,31 +170,31 @@ li:hover:after, li:focus:after {
 }
 
 .help__title {
-  font-family: "Georgia", "Arial", sans-serif;
+  font-family: $main-font;
   font-size: 35px;
-  color: #545454;
+  color: $normal;
   padding-top: 10px;
   padding-bottom: 20px;
   letter-spacing: 1.4px;
 }
 
 .card-name {
-  font-family: "Georgia", "Arial", sans-serif;
+  font-family: $main-font;
   font-size: 20px;
-  color: #545454;
+  color: $normal;
   letter-spacing: 1px;
   padding-bottom: 25px;
 }
 
 .card__button {
-  color: #292929;
+  color: $gray-dark;
   border-radius: 45px;
-  border: 2px solid #f1cdb3;
+  border: 2px solid $pink;
   padding: 12px 43px;
   text-decoration: none;
   transition: 0.2s ease;
   cursor: pointer;
-  font-family: "Georgia", "Arial", sans-serif;
+  font-family: $main-font;
   letter-spacing: 1px;
   font-size: 17px;
   width: 190px;
@@ -191,14 +210,14 @@ li:hover:after, li:focus:after {
 .card__button_rest {
   margin-left: 38%;
   height: 52px;
-  color: #292929;
+  color: $gray-dark;
   border-radius: 45px;
-  border: 2px solid #f1cdb3;
+  border: 2px solid $pink;
   padding: 12px 43px;
   text-decoration: none;
   transition: 0.2s ease;
   cursor: pointer;
-  font-family: "Georgia", "Arial", sans-serif;
+  font-family: $main-font;
   letter-spacing: 1px;
   font-size: 17px;
   text-align: center;
@@ -206,19 +225,20 @@ li:hover:after, li:focus:after {
 }
 
 .carousel__button {
-  color: #292929;
+  color: $gray-dark;
   border-radius: 50%;
-  border: 2px solid #f1cdb3;
+  border: 2px solid $pink;
   padding: 10px 15px;
-}
-.carousel__button:hover {
-  color: #292929;
-  background-color: #f1cdb3;
+
+  &:hover {
+    color: $gray-dark;
+    background-color: $pink;
+  }
 }
 
 .card__button_rest:hover {
-  color: #292929;
-  background-color: #f1cdb3;
+  color: $gray-dark;
+  background-color: $pink;
 }
 
 .carousel-inner {
@@ -254,7 +274,7 @@ li:hover:after, li:focus:after {
   height: 435px;
   width: 270px;
   text-align: center;
-  background-color: #fafafa;
+  background-color: $gray-light;
   border: none;
 }
 
@@ -263,7 +283,7 @@ li:hover:after, li:focus:after {
 }
 
 #help {
-  color: #fafafa;
+  color: $gray-light;
 }
 
 .help {
@@ -273,7 +293,7 @@ li:hover:after, li:focus:after {
 }
 
 .help__title {
-  color: #545454;
+  color: $normal;
   margin-bottom: 58px;
   text-align: center;
 }
@@ -301,12 +321,12 @@ li:hover:after, li:focus:after {
 }
 
 .help__name {
-  color: #545454;
+  color: $normal;
 }
 
 #donation {
-  background-color: #f6f6f6;
-  color: #545454;
+  background-color: $basic-light;
+  color: $normal;
   padding-top: 70px;
   padding-bottom: 70px;
   padding-right: 100px;
@@ -318,18 +338,17 @@ li:hover:after, li:focus:after {
 }
 
 .donation__title {
-  font-family: "Georgia", "Arial", sans-serif;
+  font-family: $main-font;
   font-size: 35px;
   letter-spacing: 2px;
   width: 360px;
 }
-
 .donation__button {
-  font-family: "Georgia", "Arial", sans-serif;
-  color: #292929;
+  font-family: $main-font;
+  color:$gray-dark;
   border-radius: 9px;
-  border: 2px solid #f1cdb3;
-  background-color: #f1cdb3;
+  border: 2px solid $pink;
+  background-color: $pink;
   padding: 10px 15px;
   text-decoration: none;
   letter-spacing: 0.5px;
@@ -338,29 +357,29 @@ li:hover:after, li:focus:after {
   font-size: 20px;
   padding-left: 36px;
   padding-right: 36px;
-}
-.donation__button:hover {
-  color: #292929;
-  background-color: #a97955;
-  border: #a97955;
-}
 
+  &:hover {
+    color: $gray-dark;
+    background-color: $pink-dark;
+    border: $pink-dark;
+  }
+}
 .donation__bank_text {
-  font-family: "Georgia", "Arial", sans-serif;
+  font-family: $main-font;
   font-style: normal;
   font-weight: normal;
   font-size: 15px;
-  color: #545454;
+  color: $normal;
   margin-top: 20px;
 }
 
 .donation__text {
-  font-family: "Arial", sans-serif;
+  font-family: $text-font;
   font-style: italic;
   font-weight: normal;
   font-size: 12px;
   line-height: 18px;
-  color: #cdcdcd;
+  color: $gray;
   margin-top: 35px;
 }
 
@@ -368,13 +387,13 @@ li:hover:after, li:focus:after {
   background: radial-gradient(100% 900.42% at 0% 0%, #40342d 0%, #19181b 100%), #19181b;
   padding-left: 0px;
   height: 350px;
-  font-family: "Georgia", "Arial", sans-serif;
+  font-family: $main-font
 }
 
 .footer-contacts {
   width: 280px;
   height: 250px;
-  color: #f1cdb3;
+  color: $pink;
   padding-top: 70px;
   line-height: 49px;
 }
@@ -391,13 +410,13 @@ li:hover:after, li:focus:after {
   width: 382px;
   height: 229px;
   padding-left: 120px;
-  color: #f1cdb3;
+  color: $pink;
   padding-top: 70px;
 }
 
 .footer__title {
   font-size: 35px;
-  color: #fff;
+  color: $white;
   letter-spacing: 2px;
   line-height: 49px;
   width: 278px;
@@ -409,5 +428,3 @@ li:hover:after, li:focus:after {
   height: auto;
   padding-top: 20px;
 }
-
-/*# sourceMappingURL=style.css.map */
