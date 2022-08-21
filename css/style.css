@@ -103,6 +103,7 @@ li:hover:after, li:focus:after {
 
 .about-img {
   padding-top: 82px;
+  max-width: auto;
 }
 
 .pets {
@@ -204,7 +205,16 @@ li:hover:after, li:focus:after {
   text-align: center;
   width: 270px;
 }
-
+.carousel-control-prev-icon{
+  background-image: url(../img/arrow-left.png);
+  width: 15px;
+  height: 6px;
+  }
+  .carousel-control-next-icon{
+   background-image: url(../img/arrow-right.png);
+    width: 15px;
+  height: 6px;
+  }
 .carousel__button {
   color: #292929;
   border-radius: 50%;
@@ -239,8 +249,6 @@ li:hover:after, li:focus:after {
 }
 
 .row {
-  padding: 0px;
-  margin: 0px;
   justify-content: space-evenly;
 }
 
@@ -248,6 +256,8 @@ li:hover:after, li:focus:after {
   width: 100%;
   padding-left: 40px;
   padding-top: 45px;
+  max-width: auto;
+
 }
 
 .card {
@@ -298,6 +308,8 @@ li:hover:after, li:focus:after {
   display: block;
   margin: 0 auto;
   margin-bottom: 30px;
+  max-width: auto;
+
 }
 
 .help__name {
@@ -315,6 +327,8 @@ li:hover:after, li:focus:after {
 .donate_img {
   Width: 505px;
   Height: 261px;
+  max-width: auto;
+
 }
 
 .donation__title {
@@ -408,6 +422,8 @@ li:hover:after, li:focus:after {
   width: 300px;
   height: auto;
   padding-top: 20px;
+  max-width: auto;
+
 }
 
 /* Medium Devices, Desktops */
@@ -445,6 +461,8 @@ body {
   .about-img {
     width: 314px;
     padding-top: 0px;
+    max-width: auto;
+
   }
 
   .about__content {
@@ -480,6 +498,8 @@ body {
     width: 204px;
     height: 100px;
     padding-top: 0px;
+    max-width: auto;
+
   }
 
   .donation__title {
@@ -515,6 +535,8 @@ body {
   .footer-img {
     padding-top: 60px;
     margin-left: 0px;
+    max-width: auto;
+
   }
 }
 /* Small Devices, Tablets */
@@ -570,6 +592,8 @@ body {
     height: 140px;
     margin-left: 200px;
     margin-bottom: 0px;
+    max-width: auto;
+
   }
 }
 
